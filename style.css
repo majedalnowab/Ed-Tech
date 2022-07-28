@@ -31,16 +31,14 @@ body{
 
 /* slider-end */
 
-
-
-/* explore intitute */
+/* explore-start */
 .explore-institute .row {
     background:#F0F0EE;
     --bs-gutter-x:0;
 }
+/* explore-end */
 
-
-/* students feedback */
+/* feedback-start */
 .feedback .carousel-control-next,
 .feedback .carousel-control-prev {
     width:0% !important;
