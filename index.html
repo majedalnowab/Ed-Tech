@@ -25,10 +25,10 @@
     <!--- HEADER-START -->
     <header class="pt-3">
         <!-- NAVBAR-START -->
-        <nav class="navbar navbar-expand-lg align-items-center justify-content-between py-4">
+        <nav class="navbar navbar-expand-lg fixed-top align-items-center justify-content-between py-4 bg-light">
             <div class="container">
                 <div class="website-title">
-                    <a class="navbar-brand m-0 fw-semibold fs-3" href="#">Crative Learners</a>
+                    <a class="navbar-brand m-0 fw-semibold fs-3 text-warning" href="#">Crative Learners</a>
                 </div>
                 <button class="btn btn-outline-warning d-none d-md-block d-lg-none ms-auto me-3">Register</button>
                 <button data-bs-toggle="collapse" data-bs-target="#navbar" class="navbar-toggler"><span
@@ -36,11 +36,11 @@
                 <div class="navbar-collapse collapse" id="navbar">
                     <ul class="navbar-nav mx-auto">
                         <li class="nav-item mx-3"><a class="nav-link" href="#">Home</a></li>
-                        <li class="nav-item mx-3"><a class="nav-link" href="#">Courses</a></li>
-                        <li class="nav-item mx-3"><a class="nav-link" href="#">Details</a></li>
+                        <li class="nav-item mx-3"><a class="nav-link" href="#courses">Courses</a></li>
+                        <li class="nav-item mx-3"><a class="nav-link" href="#details">Details</a></li>
                         <li class="nav-item mx-3"><a class="nav-link" href="#">Success</a></li>
                         <li class="nav-item mx-3"><a class="nav-link" href="#">About</a></li>
-                        <li class="nav-item mx-3"><a class="nav-link" href="#">Register</a></li>
+                        <li class="nav-item mx-3"><a class="nav-link" href="#register">Register</a></li>
                     </ul>
                 </div>
                 <div class="collapse navbar-collapse" id="navbar">
@@ -108,7 +108,7 @@
     <!-- MAIN-START -->
     <main>
         <!-- COURSES-START -->
-        <section class="py-5">
+        <section class="py-5" id="courses">
             <div class="container">
                 <div class="text-center w-50 mx-auto">
                     <h2 class="fw-semibold">Discover Our Popular Courses</h2>
@@ -120,13 +120,12 @@
                         <div class="card">
                             <div class="flex-column flex-sm-row  d-flex align-items-center justify-content-between">
                                 <div class="card-image">
-                                    <img class="" src="images/course/course-1.png" alt="course-1">
+                                    <img src="images/course/course-1.png" alt="course-1">
                                 </div>
-                                <div class="card-content p-3">
+                                <div class="card-content p-3 ">
                                     <h5>Fundamental Of UI/UX Design</h5>
-                                    <p>Some quick example text to build on the card title
-                                        and make up the bulk of the card.</p>
-                                    <a class="fw-bold text-decoration-none text-warning" href="#">Price : 20$</a>
+                                    <p>A user experience (UX) designer works on a team to create products that provide meaningful and enjoyable experiences for users.</p>
+                                    <span>Price : 100$</span>
                                 </div>
                             </div>
                         </div>
@@ -134,13 +133,12 @@
                         <div class="card">
                             <div class="flex-column flex-sm-row  d-flex align-items-center justify-content-between">
                                 <div class="card-image">
-                                    <img class="" src="images/course/course-2.png" alt="course-1">
+                                    <img src="images/course/course-2.png" alt="course-1">
                                 </div>
                                 <div class="card-content p-3">
-                                    <h5>Javascript Basic to advanced</h5>
-                                    <p>Some quick example text to build on the card title
-                                        and make up the bulk of the card.</p>
-                                    <a class="fw-bold text-decoration-none text-warning" href="#">Price : 20$</a>
+                                    <h5>Javascript Basic to Advanced</h5>
+                                    <p>Javascript is used by programmers across the world to create dynamic and interactive web content like applications and browsers.</p>
+                                    <span>Price : 60$</span>
                                 </div>
                             </div>
                         </div>
@@ -148,13 +146,13 @@
                         <div class="card">
                             <div class="flex-column flex-sm-row  d-flex align-items-center justify-content-between">
                                 <div class="card-image">
-                                    <img class="" src="images/course/course-3.png" alt="course-1">
+                                    <img src="images/course/course-3.png" alt="course-1">
                                 </div>
                                 <div class="card-content p-3">
                                     <h5>Fullstack Web Development</h5>
-                                    <p>Some quick example text to build on the card title
-                                        and make up the bulk of the card.</p>
-                                    <a class="fw-bold text-decoration-none text-warning" href="#">Price : 20$</a>
+                                    <p>A full stack web developer is a person who can develop both client and server software.
+                                    </p>
+                                    <span>Price : 80$</span>
                                 </div>
                             </div>
                         </div>
@@ -164,13 +162,12 @@
                         <div class="card">
                             <div class="flex-column flex-sm-row  d-flex align-items-center justify-content-between">
                                 <div class="card-image">
-                                    <img class="" src="images/course/course-4.png" alt="course-1">
+                                    <img src="images/course/course-4.png" alt="course-1">
                                 </div>
                                 <div class="card-content p-3">
                                     <h5>Digital Marketing</h5>
-                                    <p>Some quick example text to build on the card title
-                                        and make up the bulk of the card.</p>
-                                    <a class="fw-bold text-decoration-none text-warning" href="#">Price : 20$</a>
+                                    <p>Digital marketing, also called online marketing, is the promotion of brands to connect with potential customers using the internet.</p>
+                                    <span>Price : 20$</span>
                                 </div>
                             </div>
                         </div>
@@ -178,13 +175,12 @@
                         <div class="card">
                             <div class="flex-column flex-sm-row  d-flex align-items-center justify-content-between">
                                 <div class="card-image">
-                                    <img class="" src="images/course/course-5.png" alt="course-1">
+                                    <img src="images/course/course-5.png" alt="course-1">
                                 </div>
                                 <div class="card-content p-3">
                                     <h5>Photography Basic Rules</h5>
-                                    <p>Some quick example text to build on the card title
-                                        and make up the bulk of the card.</p>
-                                    <a class="fw-bold text-decoration-none text-warning" href="#">Price : 20$</a>
+                                    <p>The art or process of producing images by the action of radiant energy and especially light on a sensitive surface.</p>
+                                    <span>Price : 70$</span>
                                 </div>
                             </div>
                         </div>
@@ -192,13 +188,12 @@
                         <div class="card">
                             <div class="flex-column flex-sm-row  d-flex align-items-center justify-content-between">
                                 <div class="card-image">
-                                    <img class="" src="images/course/course-6.png" alt="course-1">
+                                    <img src="images/course/course-6.png" alt="course-1">
                                 </div>
                                 <div class="card-content p-3">
                                     <h5>Motion Graphics</h5>
-                                    <p>Some quick example text to build on the card title
-                                        and make up the bulk of the card.</p>
-                                    <a class="fw-bold text-decoration-none text-warning" href="#">Price : 20$</a>
+                                    <p>Motion graphics are pieces of animation or digital footage which create the illusion of motion or rotation.</p>
+                                    <span>Price : 50$</span>
                                 </div>
                             </div>
                         </div>
@@ -211,7 +206,7 @@
         </section>
         <!-- COURSES-END -->
         <!-- EXLPORE-START -->
-        <section class="explore-institute py-5">
+        <section class="explore-institute py-5" id="details">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-12 col-md-5">
@@ -219,9 +214,13 @@
                     </div>
                     <div class="col-12 col-md-7 explore-content p-5">
                         <h2 class="fw-semibold">Explore The e-learing Institute</h2>
-                        <p> A learning system based on formalised teaching but with the help of electronic resources is known as E-learning. While teaching can be based in or out of the classrooms, the use of computers and the Internet forms the major component of E-learning.
-                            </p>
-                        <p>Enhance the quality of learning and teaching. Meet the learning style or needs of students. Improve the efficiency and effectiveness. Improve user-accessibility and time flexibility to engage learners in the learning process.</p>
+                        <p> A learning system based on formalised teaching but with the help of electronic resources is
+                            known as E-learning. While teaching can be based in or out of the classrooms, the use of
+                            computers and the Internet forms the major component of E-learning.
+                        </p>
+                        <p>Enhance the quality of learning and teaching. Meet the learning style or needs of students.
+                            Improve the efficiency and effectiveness. Improve user-accessibility and time flexibility to
+                            engage learners in the learning process.</p>
                         <div class="d-flex align-items-center justify-content-between mt-5">
                             <div>
                                 <h2 class="fw-semibold">3.2k+</h2>
@@ -242,6 +241,50 @@
             </div>
         </section>
         <!-- EXLPORE-END -->
+        <!-- REGISTATION-START -->
+        <section class="py-5" id="register">
+            <div class="container ">
+                <div class="bg-warning text-light py-5 rounded ">
+                    <div
+                        class="join-inner d-flex align-items-center justify-content-around flex-column flex-lg-row text-center text-lg-start">
+                        <div class="w-50 text-dark">
+                            <h2 class="fw-semibold">Ready to join?</h2>
+                            <p>Click register now & fill up the box. Then you will get <br>latest news & offers.</p>
+                        </div>
+                        <div>
+                            <button data-bs-toggle="modal" data-bs-target="#modal" class="btn btn-light text-dark fw-light">Register
+                                Now</button>
+                            <div class="modal text-start" id="modal">
+                                <div class="modal-dialog">
+                                    <div class="modal-content text-dark">
+                                        <div class="modal-header">
+                                            <h4>Fill Up The Box To Register</h4>
+                                            <button data-bs-dismiss="modal" class="btn btn-close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <form action="https://formspree.io/f/xrgjkyrj" method="POST">
+                                                <label class="form-label" for="">Username</label><input name="Username:"
+                                                    class="form-control mb-3" type="text">
+                                                <label class="form-label" for="">Email</label><input name="Email:"
+                                                    class="form-control mb-3" type="eamil">
+                                                <label class="form-label" for="">Password</label><input name="Password:"
+                                                    class="form-control mb-3" type="password">
+                                                <div>
+                                                    <button class="btn btn-warning">Submit</button>
+                                                    <button data-bs-dismiss="modal"
+                                                        class="btn btn-danger">Close</button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- REGISTAION-END -->
     </main>
     <!-- MAIN-END -->
     <!-- JavaScript Bundle with Popper -->
