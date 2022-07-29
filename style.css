@@ -29,6 +29,7 @@ body{
     margin:auto;
 }
 
+
 /* slider-end */
 
 /* explore-start */
@@ -111,6 +112,9 @@ footer a i:hover {
     .carousel-content-inner {
         width:80% !important;
     }
+    header .carousel-item img{
+        height: 50vh;
+    }
     .faq {
         width:100% !important;
     }
@@ -118,7 +122,7 @@ footer a i:hover {
         width:80% !important;
     }
     .card-image {
-        width:100vw;
+        width:92vw;
         height:20vh;
     }
     .card-image img {
