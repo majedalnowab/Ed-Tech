@@ -88,7 +88,7 @@ footer a i:hover {
     margin:10px 0;
 }
 .successful-student .card img {
-    width:100vw;
+    width:100vw !important;
 }
 .courses .card {
     overflow:hidden;
