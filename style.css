@@ -38,7 +38,7 @@ body{
 }
 /* explore-end */
 
-/* feedback-start */
+/* review-start */
 .feedback .carousel-control-next,
 .feedback .carousel-control-prev {
     width:0% !important;
@@ -59,20 +59,29 @@ body{
     color:black;
 
 }
+/* review-end */
 
 /* faq section */
 .faq .card-header {
     background:#E6F6FF;
 }
 
-/* footer */
-.social-icon img {
-    width:50px;
-    height:50px;
-    transition:.3s all;
+/* footer-start */
+
+footer ul li{
+    display:inline-block;
+    margin-bottom:10px;
 }
-.social-icon a:hover img{
-    transform:translateY(-10px);
+footer ul li a{
+    font-size:20px;
+    margin:0 15px;
+}
+footer i {
+    color:white;
+    font-size:20px;
+}
+footer a i:hover {
+    color: yellow;
 }
 .card {
     margin:10px 0;
@@ -83,6 +92,7 @@ body{
 .courses .card {
     overflow:hidden;
 }
+/* footer-end */
 
 
 
